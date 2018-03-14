@@ -13,7 +13,7 @@ Local mode is the development mode for resin.io. It allows you to build and sync
 In order to use local mode on a device:
 - The device must be running resinOS v2.0 or higher with supervisor v4.0 or higher.
 - The device must be running a [development][development] variant of the OS. If you try to use a production variant, you will not be able to use local mode. The production devices have SSH and the Docker socket locked down, both of which are needed for the local mode feature.
-- You must have the resin.io CLI installed on your workstation.
+- You must have the [resin.io CLI](reference/cli/) installed on your workstation.
 - Local mode must be enabled through the dashboard. To use local mode on a development device, click on the small *Actions* dropdown at the top right of the device page and select *Enable Local Mode*.
 
 __Note:__ At the moment, `resin local push` will not work for multicontainer applications. The recommended development workflow is to put the device in local mode and use the [Docker Compose remote API][compose-remote].
